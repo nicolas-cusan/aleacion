@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import logo from 'images/logo.svg';
+// import logo from 'images/logo.svg';
+// import Logo from 'svg-react-loader?name=Logo!images/logo.svg';
 import s from 'styled-components';
 
 const SApp = s.div`
@@ -11,7 +12,7 @@ class App extends Component {
     return (
       <SApp>
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <Logo />
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
